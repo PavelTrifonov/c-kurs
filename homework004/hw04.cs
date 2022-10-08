@@ -4,7 +4,7 @@
 5 -> 2, 4
 8 -> 2, 4, 6, 8*/
 Console.WriteLine("Введите целое число: ");
-int N = int.Parse(Console.ReadLine());
+int N = int.Parse(Console.ReadLine()) ;
 int a = 2;
 while (a<N+1)
     {Console.Write($"{a} ");
