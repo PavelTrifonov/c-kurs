@@ -1,6 +1,8 @@
 ﻿// Преобразовать массив так, чтобы сначала шли 
 //нулевые элементы, а затем все остальные.
 //-1 -3 -1 -3 -1 0 -4 -2 -> 0 -3 -1 -3 -1 -1 -4 -2
+void arrFirstnull()
+{
 int col = new Random().Next(5,10);
 int[] myArr = new int[col];
 for (int i=0;i< col;i++)
@@ -20,4 +22,5 @@ myArr[i]=c;
 j++;
 }
 }
-Console.WriteLine("Новый массив: "+ String.Join(", ",myArr));
+Console.WriteLine("Новый массив: "+ String.Join(", ",myArr));}
+arrFirstnull();

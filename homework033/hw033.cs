@@ -6,6 +6,8 @@
 новый массив.
 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 63, 12, 33, 36 -> [9, 3, 6, 9]*/
+void arrSumNum()
+{
 int col=8;
 int[] myArr = new int[col];
 for (int i=0;i< col;i++)
@@ -21,4 +23,5 @@ while(myArr[i]!=0)
     myArr[i] = myArr[i]/10;}
   myArr[i]=sum;
 }
-Console.WriteLine("Новый массив: "+ String.Join(", ",myArr));
+Console.WriteLine("Новый массив: "+ String.Join(", ",myArr));}
+arrSumNum();
